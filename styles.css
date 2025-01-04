@@ -1,0 +1,46 @@
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif; /* Yazı tipi */
+  background-color: #f0f8ff; /* Arka plan rengi */
+  display: flex; /* Flexbox kullanımı */
+  justify-content: center; /* İçeriği yatayda ortala */
+  align-items: center; /* İçeriği dikeyde ortala */
+  height: 100vh; /* Ekranın tamamını kapla */
+  margin: 0; /* Sayfa kenar boşluklarını sıfırla */
+}
+
+/* Konteyner düzeni */
+.container {
+  text-align: center; /* Metni ortala */
+  width: 50%; /* Konteynerin genişliği */
+  background-color: white; /* Konteynerin arka plan rengi */
+  padding: 20px; /* Konteynerin etrafındaki boşluk */
+  border-radius: 8px; /* Köşe yuvarlama */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+/* Şehir girişi ve buton */
+input {
+  padding: 10px; /* İç boşluk */
+  margin-right: 10px; /* Sağ tarafa boşluk bırak */
+  border-radius: 4px; /* Köşe yuvarlama */
+  border: 1px solid #ccc; /* Kenarlık rengi */
+}
+
+button {
+  padding: 10px; /* İç boşluk */
+  background-color: #28a745; /* Buton arka plan rengi */
+  color: white; /* Yazı rengi */
+  border: none; /* Kenarlık yok */
+  border-radius: 4px; /* Köşe yuvarlama */
+  cursor: pointer; /* İmleci el simgesine dönüştür */
+}
+
+button:hover {
+  background-color: #218838; /* Butona tıklandığında renk değişikliği */
+}
+
+/* Hava durumu bilgisi */
+#weather-info {
+  margin-top: 20px; /* Üst boşluk */
+}

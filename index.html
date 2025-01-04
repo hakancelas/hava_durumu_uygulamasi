@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hava Durumu Uygulaması</title>
+  <link rel="stylesheet" href="styles.css"> <!-- CSS dosyasını ekliyoruz -->
+</head>
+<body>
+  <div class="container"> <!-- Uygulamanın ana konteyneri -->
+    <h1>Hava Durumu Uygulaması</h1> <!-- Başlık -->
+    <input type="text" id="city" placeholder="Şehir adı girin..."> <!-- Şehir adı girişi için input alanı -->
+    <button onclick="getWeather()">Hava Durumunu Görüntüle</button> <!-- Buton tıklama ile hava durumu alınacak -->
+    
+    <div id="weather-info"> <!-- Hava durumu bilgilerini görüntüleyeceğimiz alan -->
+      <h3>Hava Durumu:</h3>
+      <p id="weather-description"></p> <!-- Hava durumu açıklaması -->
+      <p id="temperature"></p> <!-- Sıcaklık bilgisi -->
+      <p id="humidity"></p> <!-- Nem oranı -->
+    </div>
+  </div>
+
+  <script src="app.js"></script> <!-- JavaScript dosyasını buraya bağlıyoruz -->
+</body>
+</html>
